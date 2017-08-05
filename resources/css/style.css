@@ -120,3 +120,23 @@ nav {
 }
 
 /******   Locations   ******/
+.locations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.location {
+  width: 35%;
+}
+
+.title {
+  display: block;
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+.detail {
+  color: black;
+}
