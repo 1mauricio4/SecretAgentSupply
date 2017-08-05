@@ -8,7 +8,7 @@ body {
 
 .container {
   max-width: 960px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /******   Header   ******/
@@ -28,3 +28,37 @@ header {
   width: auto;
   padding: 0 1rem 0 .5rem;
 }
+
+.company-name span {
+  text-transform: uppercase;
+}
+
+/******   Banner   ******/
+.banner {
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  padding: 2rem 3rem;
+  background-color: black;
+}
+
+.content span,
+.content h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.content h2 {
+  padding-top: .25rem;
+  font-size: 2rem;
+}
+
+/******   Navigation   ******/
