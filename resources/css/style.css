@@ -107,7 +107,7 @@ nav {
 }
 
 .image img {
-  max-width: 50%;
+  max-width: 8rem;
   height: auto;
 }
 
@@ -151,4 +151,30 @@ footer .container {
   justify-content: flex-start;
   align-items: center;
   height: 10rem;
+}
+
+/******   Media query tablet   ******/
+@media only screen and (max-width: 1020px) {
+  .container.navigation-1 {
+    display: none;
+  }
+
+  .container.navigation-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .navigation-2 li {
+    padding: .75rem 0;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+
+  .product {
+    width: 47%;
+  }
 }
