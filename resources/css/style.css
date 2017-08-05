@@ -140,3 +140,15 @@ nav {
 .detail {
   color: black;
 }
+
+/******   Footer   ******/
+footer {
+  background-color: black;
+}
+
+footer .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10rem;
+}
