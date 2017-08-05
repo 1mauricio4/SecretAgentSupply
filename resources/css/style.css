@@ -62,3 +62,23 @@ header {
 }
 
 /******   Navigation   ******/
+nav {
+  background-color: firebrick;
+}
+
+.container.navigation-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.navigation-1 li {
+  padding: .75rem;
+}
+
+.container.navigation-2 {
+  display: none;
+}
+
+/******   Product Grid   ******/
