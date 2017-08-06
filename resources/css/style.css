@@ -224,4 +224,14 @@ footer .container {
     justify-content: center;
     margin: auto;
   }
+
+  .navigation-1 {
+    display: none;
+  }
+
+  .navigation-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
