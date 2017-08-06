@@ -225,13 +225,21 @@ footer .container {
     margin: auto;
   }
 
-  .navigation-1 {
+  .container.navigation-1 {
     display: none;
   }
 
-  .navigation-2 {
+  .container.navigation-2 {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .navigation-2 li {
+    padding: .75rem 0;
+  }
+
+  .product.glasses {
+    display: none;
   }
 }
