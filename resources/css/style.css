@@ -178,3 +178,49 @@ footer .container {
     width: 47%;
   }
 }
+
+/******   Media query Cellphone   ******/
+@media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+
+
+  .content {
+    width: auto;
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  .content span {
+    font-size: .77rem;
+  }
+
+  .content h2 {
+    font-size: 1rem;
+  }
+
+  .product {
+    width: 90%;
+    margin: auto;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .locations {
+    flex-direction: column;
+    margin: auto auto 3rem auto;
+  }
+
+  .location {
+    width: 90%;
+    margin: .5rem;
+  }
+
+  footer .container {
+    justify-content: center;
+    margin: auto;
+  }
+}
